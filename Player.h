@@ -5,7 +5,7 @@
 //#include "Mtmchkin.h"
 
 class Player {
-private:
+protected:
    std::string m_name;   //may be probmlematic in advance copy c'tor
    int m_level;
    int m_force;
