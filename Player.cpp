@@ -21,12 +21,6 @@ Player::Player(const char* name) :                              // 6/8/2022
 
 
 
-void Player::printInfo()
-{
-     //std::cout << "Player Details:" << std::endl;
-     printPlayerInfo(m_name.c_str(), m_level, m_force, m_hp, m_coins);
-}
-
 
 void Player::levelUp()
 {
@@ -58,7 +52,7 @@ void Player::buff(int const extraForce)
 
 void Player::heal(int const extraHp)
 {
-     if (extraHp<=0)
+     if (extraHp<=0)          //throw exception ?
      {
           return;
      }
@@ -100,7 +94,7 @@ void Player::damage(int const hpDamage)
   }
 
 
-void Player::addCoins(int const coins) //bdekat kelet
+void Player::addCoins(int const coins) //bdekat kelet //throw exception?
 {
      if (coins>0)
      {
@@ -128,4 +122,12 @@ void Player::addCoins(int const coins) //bdekat kelet
   {
      int attackStrength = m_level + m_force;
      return attackStrength;
+  }
+
+  void Player::minusForce()
+  {
+     if (m_froce>=1)
+     {
+          m_force--;
+     }
   }

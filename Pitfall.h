@@ -5,11 +5,11 @@ class Pitfall : public Card
 {
     private:
     int m_hpDamage;
-    friend class player;
+    //friend class player; //check
 
     public:
     Pitfall();
-    void applyEncounter(Player& player) const
+    void applyEncounter(Player& player) const override;
 }
 
 

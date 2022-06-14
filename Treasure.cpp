@@ -3,7 +3,7 @@
 #include "Player.h"
 
 Treasue::Treasure() : 
-Card(Treasure),
+Card("Treasure"),
 m_treasureCoins(10)
 {}
 

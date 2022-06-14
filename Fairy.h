@@ -5,11 +5,11 @@ class Fairy : public Card
 {
     private:
     int m_extraHp;
-    friend class player;
+    //friend class player;
 
     public:
     Fairy();
-    void applyEncounter(Player& player) const
+    void applyEncounter(Player& player) const override;
 }
 
 

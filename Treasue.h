@@ -8,7 +8,7 @@ class Treasure : public Card
 
     public:
     Treasure();
-    void applyEncounter(Player& player) const
+    void applyEncounter(Player& player) const override;
 }
 
 

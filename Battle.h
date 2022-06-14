@@ -7,18 +7,14 @@ class Battle : public Card
     int m_force;
     int m_loot;
     int m_hpLossOnDefeat;
-    friend class Player;
+    //friend class Player;
 
     public:
     Battle(const char* name, int force, int loot, int hpLossOnDefeat);
-    void applyEncounter(Player& player) const ;
-    std::ostream& operator<<(std::ostream& os);
+    virtual void applyEncounter(Player& player) const ; //made virtual
+    friend std::ostream& operator<<(std::ostream& os, const Battle& r ); //check battle&
+    virtual void battleAbstract()=0; //made abstract
 }
-
-
-
-
-
 
 
 #endif //EX4_BATTLE_H

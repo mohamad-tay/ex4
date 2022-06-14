@@ -1,6 +1,7 @@
 #include "Battle.h"
 #include "utilities.h"
 #include "Player.h"
+#include <string>
 
 Battle:: Battle(const char* name, int force, int loot, int hpLossOnDefeat) :
 Card(name),
@@ -11,29 +12,30 @@ m_hpLossOnDefeat(hpLossOnDefeat)
 
 void Battle::applyEncounter(Player& player) const
 {
-    if(Player::player.getAttackStrength() >= m_force)
+    if(player.getAttackStrength() >= m_force)
     {
-        Player::player.levelUp();
-        Player::Player.addCoins(m_coins);
-        printWinBattle(player.m_name ,m_cardName);
+        player.levelUp();
+        player.addCoins(m_coins);
+        //std::string cardName = m_cardName; //protected check again 
+        printWinBattle(player.m_name ,m_cardName); //check access to player.m_name and card , should be ok
     }
     else
     {
-        Player::Player.damage(m_hpLossOnDefeat);
+        player.damage(m_hpLossOnDefeat);
         printLossBattle(player.m_name ,m_cardName);
     }
 }
 
-std::ostream& Battle::operator<<(std::ostream& os)
+std::ostream& Battle::operator<<(std::ostream& os, const Battle& r)  //check battle&
 {
     os << "Card Details:" << endl;
-    os << "Name: " << m_cardName << endl;
+    os << "Name: " << r.m_cardName << endl;
     bool isDragon = false;
-    if(m_cardName == "Dragon")
+    if(r.m_cardName == "Dragon")    //check == should be ok
     {
         isDragon = true
     }
-    printMonsterDetails(os, m_force, m_hpLossOnDefeat, int m_coins, isDragon );
+    printMonsterDetails(os, r.m_force, r.m_hpLossOnDefeat, r.m_coins, isDragon );
     printEndOfCardDetails(os)
     return os;
 }

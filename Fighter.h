@@ -4,6 +4,7 @@
 class Fighter : public Player {
 public:
    int getAttackStrength() override;
+   std::ostream& operator<<(std::ostream& os, const Fighter& r)
 }
 
 

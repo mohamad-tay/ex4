@@ -10,10 +10,10 @@ class Card
     public:
     Card(const char* name);
     Card(const Card&) = default;                                     //a3tked sa7 3shn string btsawe alashe
-    ~Card() = default;                                               //check aetha lazm virtual
+    virtual ~Card() = default;                                               //check aetha lazm virtual
     Card& operator=(const Card& other) = default;
     virtual void applyEncounter(Player& player) const = 0;
-    virtual std::ostream& operator<<(std::ostream& os);
+    friend std::ostream& operator<<(std::ostream& os, const Card& r);  //check if needed and Card&
 }
 
 

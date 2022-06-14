@@ -17,11 +17,11 @@ m_hpValue(HP_VALUE);
 
 void applyEncounter(Player& player) const
 {
-    ostream os; //??
-    printMerchantInitialMessageForInteractiveEncounter(os, player.m_name, player.m_coins);
-    std string input="";
-    std::getline (std::cin,input);
-    while(input != "0" || input != "1" || input != "2")
+    //ostream os; //??
+    printMerchantInitialMessageForInteractiveEncounter(std::cout, player.m_name, player.m_coins);
+    std::string input;
+    std::getline (std::cin,input); 
+    while(input != "0" && input != "1" && input != "2")
     {
         printInvalidInput();
         std::getline (std::cin,input);
@@ -29,7 +29,7 @@ void applyEncounter(Player& player) const
     
     if(input == "0")
     {
-        printMerchantSummary(os,player.m_name, 0, 0);
+        printMerchantSummary(std::cout,player.m_name, 0, 0);
     }
     else if(input == "1" && player.m_coins >= HP_VALUE)
     {
@@ -38,7 +38,7 @@ void applyEncounter(Player& player) const
         printMerchantSummary(os,player.m_name, 1, HP_VALUE);
 
     }
-    else if(input == "1" && player.m_coins >= FORCE_VALUE)
+    else if(input == "2" && player.m_coins >= FORCE_VALUE)
     {
         player.buff(EXTRA_FORCE);
         player.pay(FORCE_VALUE);
@@ -46,7 +46,7 @@ void applyEncounter(Player& player) const
     }
     else
     {
-        printMerchantInsufficientCoins(os);
+        printMerchantInsufficientCoins(std::cout);
     }
 
 }

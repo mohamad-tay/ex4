@@ -4,6 +4,7 @@
 class Rouge : public Player {
 public:
   void addCoins(int const coins) override;
+  friend std::ostream& operator<<(std::ostream& os, const Rogue& r);
 }
 
 

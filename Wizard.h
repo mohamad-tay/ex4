@@ -3,7 +3,8 @@
 
 class Wizard : public Player {
 public:
-    void heal(int extraHp) override;  
+    void heal(int extraHp) override; 
+    friend std::ostream& operator<<(std::ostream& os, const Wizard& r);
 }
 
 

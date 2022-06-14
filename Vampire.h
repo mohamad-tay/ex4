@@ -5,6 +5,7 @@ class Vampire : public Battle
 {
     public:
     Vampire();
+    virtual void applyEncounter(Player& player) const override;
 }
 
 

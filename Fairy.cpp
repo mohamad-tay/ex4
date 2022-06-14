@@ -1,6 +1,7 @@
 #include "Fairy.h"
 #include "utilities.h"
 #include "Player.h"
+#include "Wizard.h"
 
 
 Barfight::Barfight() :
@@ -10,7 +11,8 @@ m_extraHp(10)
 
 void applyEncounter(Player& player) const
 {
-    if(player.m_name == "Wizard")
+    Wizard* castPtr = dynamic_cast<Wizard*>(&player);
+    if(castPtr != nullptr) 
     {
         player.heal(m_extraHp);
         printFairyMessage(true);

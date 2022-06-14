@@ -1,5 +1,5 @@
-#include "Goblin"
+#include "Goblin.h"
 
 Goblin::Goblin() :
-Battle(Golbin, 6, 2, 10)
+Battle("Goblin", 6, 2, 10)        //check sendingn "" as char*
 {}
