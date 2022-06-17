@@ -1,7 +1,15 @@
 #ifndef MTMCHKIN_H_
 #define MTMCHKIN_H_
+#include <vector>
 
 class Mtmchkin{
+
+private:
+//int m_numOfPlayer;
+vector<shared_ptr<Player>> m_teamPlayer;
+vector<shared_ptr<Card>> m_groubCard;
+void initializeCards(const std::string fileName);
+
 
 public:
     
