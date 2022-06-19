@@ -1,7 +1,7 @@
 #ifndef EX4_PLAYER_H
 #define EX4_PLAYER_H
 
-#include "Mtmchkin.h"
+//#include "Mtmchkin.h"
 #include "Battle.h"
 #include "Merchant.h"
 #include <string>
