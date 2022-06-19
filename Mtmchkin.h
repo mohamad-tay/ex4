@@ -4,6 +4,7 @@
 #include "utilities.h"
 #include "Card.h"
 #include "Player.h"
+#include <memory>
 
 class Mtmchkin{
 

@@ -89,7 +89,7 @@ Mtmchkin::Mtmchkin(const std::string fileName) : m_numOfRounds(0)
 }
 
  
-void Mtmchkin::initializeCards(const std::string fileName)
+void initializeCards(const std::string fileName)
 {
     ifstream file(fileName);
     if(!(file.is_open()))
@@ -123,23 +123,29 @@ void Mtmchkin::initializeCards(const std::string fileName)
             break;
 
             case "Treasure" : 
-            shared_ptr<Card> ptr(new Treasure(nameOfPlayer))
+            shared_ptr<Card> ptr(new Treasure(nameOfPlayer));
             m_groubCard.push_back(ptr);
             break;
 
             case "Pitfall" : 
-            shared_ptr<Card> ptr(new Pitfall(nameOfPlayer))
+            shared_ptr<Card> ptr(new Pitfall(nameOfPlayer));
             m_groubCard.push_back(ptr);
             break;
 
             case "Barfight" : 
-            shared_ptr<Card> ptr(new Barfight(nameOfPlayer))
+            shared_ptr<Card> ptr(new Barfight(nameOfPlayer));
             m_groubCard.push_back(ptr);
             break;
 
             case "Fairy" : 
             shared_ptr<Card> ptr(new Fairy(nameOfPlayer))
             m_groubCard.push_back(ptr);
+            break;
+
+            case "Gang" :
+            std::shared_ptr<Card> Gang(new Gang());
+            GangInitializer(Gang,fileName,&numOfLine); //sending ptr
+            m_groubCard.push_back(Gang);
             break;
 
             default :
@@ -151,7 +157,15 @@ void Mtmchkin::initializeCards(const std::string fileName)
     {
         throw DeckFileInvalidSize e();
     }
+}
 
+void GangInitializer(std::shared_ptr<Gang> Gang,ifstream file,int* lineNumPtr) //check sending a file
+{
+    std::string gangLine;
+    while(std::getline(file, gangLine) && gangLine!="EndGang")
+    {
+        Gang->addMember(GangLine,lineNumPtr);
+    }
 }
 
 void Mtmchkin::playRound()
