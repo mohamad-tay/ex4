@@ -34,6 +34,7 @@ public:                                                                 // addin
     virtual int getAttackStrength();
     void minusForce();
     virtual void abstract()=0; //made the class abstract
+    std::string getName() const;
 };
 
 

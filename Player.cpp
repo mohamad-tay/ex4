@@ -131,3 +131,8 @@ void Player::addCoins(int const coins) //bdekat kelet //throw exception?
           m_force--;
      }
   }
+
+  std::string Player::getName() const
+  {
+     return m_name;
+  }

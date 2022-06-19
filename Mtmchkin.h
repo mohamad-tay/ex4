@@ -1,13 +1,18 @@
 #ifndef MTMCHKIN_H_
 #define MTMCHKIN_H_
-#include <vector>
+#include <deque>
+#include "utilities.h"
+#include "Card.h"
+#include "Player.h"
 
 class Mtmchkin{
 
 private:
-//int m_numOfPlayer;
-vector<shared_ptr<Player>> m_teamPlayer;
-vector<shared_ptr<Card>> m_groubCard;
+int m_numOfRounds;
+std::deque<shared_ptr<Player>> m_teamPlayer;
+std::deque<shared_ptr<Card>> m_groubCard;
+std::deque<shaared_ptr<Player>> m_winners;
+std::deque<shaared_ptr<Player>> m_losers;
 void initializeCards(const std::string fileName);
 
 
