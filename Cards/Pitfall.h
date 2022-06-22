@@ -1,6 +1,6 @@
 #ifndef EX4_PITFALL_H
 #define EX4_PITFALL_H
-
+#include "Card.h"
 class Pitfall : public Card
 {
     private:
@@ -10,7 +10,7 @@ class Pitfall : public Card
     public:
     Pitfall();
     void applyEncounter(Player& player) const override;
-}
+};
 
 
 

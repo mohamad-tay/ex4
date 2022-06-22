@@ -1,11 +1,12 @@
 #ifndef EX4_GOBLIN_H
 #define EX4_GOBLIN_H
-
-class goblin : public Battle
+#include "Battle.h"
+class Goblin : public Battle
 {
     public:
     Goblin();
-}
+    void battleAbstract() override;
+};
 
 
 

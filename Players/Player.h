@@ -1,13 +1,21 @@
 #ifndef EX4_PLAYER_H
 #define EX4_PLAYER_H
-
+#include <string>
+#include <iostream>
 //#include "Mtmchkin.h"
-#include "Battle.h"
-#include "Merchant.h"
+//#include "../Cards/Battle.h"
+//#include "../Cards/Vampire.h"
+//#include "../Cards/Merchant.h"
 #include <string>
 //#include "Mtmchkin.h"
 
 class Player {
+
+friend class Mtmchkin;       // check if needded in ex4 
+friend class Vampire;  //is include needed ?!!!!!?
+friend class Battle;
+friend class Merchant;
+
 protected:
    std::string m_name;   
    int m_level;
@@ -15,12 +23,9 @@ protected:
    int m_maxHp;
    int m_hp ;
    int m_coins;
-   friend class Mtmchkin;       // check if needded in ex4 
-   friend class Battle;  //is include needed ?!!!!!?
-   friend class Merchant; //check if Card
 
 public:                                                                 // adding virtual
-    Player(const char* name);
+    Player(const std::string& name);
     Player(const Player& copiedPlayer)=default;
     virtual ~Player()=default;
     void levelUp();
@@ -35,6 +40,7 @@ public:                                                                 // addin
     void minusForce();
     virtual void abstract()=0; //made the class abstract
     std::string getName() const;
+    friend std::ostream& operator<<(std::ostream& os, const Player& r);
 };
 
 

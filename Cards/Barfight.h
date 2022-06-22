@@ -1,5 +1,7 @@
 #ifndef EX4_BARFIGHT_H
 #define EX4_BARFIGHT_H
+#include "Card.h"
+#include "../Players/Player.h"
 
 class Barfight : public Card
 {
@@ -10,7 +12,7 @@ class Barfight : public Card
     public:
     Barfight();
     void applyEncounter(Player& player) const override;
-}
+};
 
 
 

@@ -1,20 +1,20 @@
 #include "Barfight.h"
-#include "utilities.h"
-#include "Player.h"
-#include "Fighter.h" //check include maybe just on of the two
+#include "../utilities.h"
+#include "../Players/Player.h"
+#include "../Players/Fighter.h"
+#include "Card.h"
 
 
-Barfight::Barfight() :
-Card("Barfight"),
+Barfight::Barfight() : Card(std::string("Barfight")),
 m_hpDamage(10)
 {}
 
-void applyEncounter(Player& player) const
+void Barfight::applyEncounter(Player& player) const
 {
     Fighter* castPtr = dynamic_cast<Fighter*>(&player);
     if(castPtr == nullptr) 
     {
-        player.damage(m_hpDamage);
+        player.damage(this->m_hpDamage);
         printBarfightMessage(false);
     }
     else

@@ -1,5 +1,11 @@
+#include "Battle.h"
 #include "Dragon.h"
 
-Drago::Dragon() :
-Battle("Dragon", 25, 1000, 100)
+Dragon::Dragon() :
+Battle(std::string("Dragon"), 25, 1000, 100)
 {}
+
+void Dragon::battleAbstract()
+{
+    return;
+}

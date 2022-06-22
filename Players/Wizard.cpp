@@ -1,6 +1,10 @@
 #include "Wizard.h"
-#include "utilities.h"
+#include "../utilities.h"
 
+
+
+Wizard::Wizard(const std::string& name) : Player(name)
+{}
 
 void Wizard::heal(int const extraHp)
 {
@@ -19,7 +23,7 @@ void Wizard::heal(int const extraHp)
 }
 
 
-std::ostream& Wizard::operator<<(std::ostream& os, const Wizard& r)
+std::ostream& operator<<(std::ostream& os, const Wizard& r)
 {
  std::string name= r.m_name;
  std::string job = "Wizard";
@@ -28,4 +32,10 @@ std::ostream& Wizard::operator<<(std::ostream& os, const Wizard& r)
  int HP =r.m_hp;
  int coins = r.m_coins;
  printPlayerDetails(os,name,job,level,force,HP,coins);
+ return os;
+}
+
+void Wizard::abstract()
+{
+   return;
 }

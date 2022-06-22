@@ -1,16 +1,17 @@
 // lazm nns5 alkfatseem card.h + utilities.h 
 // bs llesh baken 3amlen incloude l card.h wen ast3mlnaha??
 
-#include "Card.h"
-#include "utilities.h"
+#include "../Cards/Card.h"
+#include "../utilities.h"
 #include <iostream>
 #include "Player.h"
+#include <string>
 
 const int FIVE = 5;
 const int MAX_HEALTH_DEFAULT = 100;
 const int INITIAL_COINS = 10;
 
-Player::Player(const char* name) :                              // 6/8/2022
+Player::Player(const std::string& name) :                              // 6/8/2022
      m_name(name),
      m_level(1),
      m_force(FIVE),
@@ -126,7 +127,7 @@ void Player::addCoins(int const coins) //bdekat kelet //throw exception?
 
   void Player::minusForce()
   {
-     if (m_froce>=1)
+     if (m_force>=1)
      {
           m_force--;
      }
@@ -136,3 +137,15 @@ void Player::addCoins(int const coins) //bdekat kelet //throw exception?
   {
      return m_name;
   }
+
+  std::ostream& operator<<(std::ostream& os, const Player& r)
+{
+ std::string name= r.m_name;
+ std::string job = "Player tetstststst";
+ int level =r.m_level;
+ int force = r.m_force;
+ int HP =r.m_hp;
+ int coins = r.m_coins;
+ printPlayerDetails(os,name,job,level,force,HP,coins);
+ return os;
+}

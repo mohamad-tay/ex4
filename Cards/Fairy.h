@@ -1,6 +1,6 @@
 #ifndef EX4_FAIRY_H
 #define EX4_FAIRY_H
-
+#include "Card.h"
 class Fairy : public Card
 {
     private:
@@ -10,7 +10,7 @@ class Fairy : public Card
     public:
     Fairy();
     void applyEncounter(Player& player) const override;
-}
+};
 
 
 

@@ -1,22 +1,16 @@
-include "Player.h"
-include "Card.h"
-include "utilities.h"
+#include "../Players/Player.h"
+#include "Card.h"
+#include "../utilities.h"
+#include <iostream>
 
-const int MAX_LENGTH = 15
+//const int MAX_LENGTH = 15;
 
-Card::Card(const char* name) :
-m_cardName(name)
-{
-    // if((string::strlen(name)>MAX_LENGTH) || (m_cardName.find(' ') != string::npos ))
-    // {
-    //     delete[] m_cardName;
-    //     throw ??;
-    // } 
-}
+Card::Card(const std::string name) : m_cardName(name)
+{}
 
- std::ostream& Card::operator<<(std::ostream& os, const Card& r)
+std::ostream& operator<<(std::ostream& os, const Card& r)
 {
     printCardDetails(os , r.m_cardName);
-    printEndOfCardDetails(os)
+    printEndOfCardDetails(os);
     return os;
 }

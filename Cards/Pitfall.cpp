@@ -1,22 +1,22 @@
 #include "Pitfall.h"
-#include "utilities.h"
-#include "Player.h"
-#include "Rouge.h"
-
+#include "../utilities.h"
+#include "../Players/Player.h"
+#include "../Players/Rogue.h"
+#include <iostream>
 
 Pitfall::Pitfall() :
-Card("Pitfall"),
+Card(std::string("Pitfall")),
 m_hpDamage(10)
 {}
 
-void applyEncounter(Player& player) const
+void Pitfall::applyEncounter(Player& player) const
 {
 
     //Player* playerPtr = &player;
     Rogue* castPtr = dynamic_cast<Rogue*>(&player);
     if(castPtr == nullptr)     //fix 
     {
-        player.damage(m_hpDamage);
+        player.damage(this->m_hpDamage);
         printPitfallMessage(false);
     }
     else

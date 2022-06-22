@@ -1,20 +1,21 @@
+#include "Card.h"
 #include "Fairy.h"
-#include "utilities.h"
-#include "Player.h"
-#include "Wizard.h"
+#include "../utilities.h"
+#include "../Players/Player.h"
+#include "../Players/Wizard.h"
 
 
-Barfight::Barfight() :
-Card("Fairy"),
+Fairy::Fairy() :
+Card(std::string("Fairy")),
 m_extraHp(10)
 {}
 
-void applyEncounter(Player& player) const
+void Fairy::applyEncounter(Player& player) const
 {
     Wizard* castPtr = dynamic_cast<Wizard*>(&player);
     if(castPtr != nullptr) 
     {
-        player.heal(m_extraHp);
+        player.heal(this->m_extraHp);
         printFairyMessage(true);
     }
     else

@@ -1,5 +1,10 @@
 #include "Goblin.h"
 
 Goblin::Goblin() :
-Battle("Goblin", 6, 2, 10)        //check sendingn "" as char*
+Battle(std::string("Goblin"), 6, 2, 10)        //check sendingn "" as char*
 {}
+
+void Goblin::battleAbstract()
+{
+    return;
+}

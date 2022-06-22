@@ -1,5 +1,8 @@
 #include "Fighter.h"
-#include "utilities.h"
+#include "../utilities.h"
+
+Fighter::Fighter(const std::string& name) : Player(name)
+{}
 
 int Fighter::getAttackStrength()
   {
@@ -7,7 +10,7 @@ int Fighter::getAttackStrength()
      return attackStrength;
   }
 
-std::ostream& Fighter::operator<<(std::ostream& os, const Fighter& r)
+std::ostream& operator<<(std::ostream& os, const Fighter& r)
 {
  std::string name= r.m_name;
  std::string job = "Fighter";
@@ -16,4 +19,10 @@ std::ostream& Fighter::operator<<(std::ostream& os, const Fighter& r)
  int HP =r.m_hp;
  int coins = r.m_coins;
  printPlayerDetails(os,name,job,level,force,HP,coins);
+ return os;
 }
+
+ void Fighter::abstract()
+ {
+  return;
+ }

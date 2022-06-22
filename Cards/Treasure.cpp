@@ -1,9 +1,9 @@
 #include "Treasure.h"
-#include "utilities.h"
-#include "Player.h"
+#include "../utilities.h"
+#include "../Players/Player.h"
 
-Treasue::Treasure() : 
-Card("Treasure"),
+Treasure::Treasure() : 
+Card(std::string("Treasure")),
 m_treasureCoins(10)
 {}
 

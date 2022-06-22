@@ -1,3 +1,6 @@
+#ifndef EX4_EXCEPTION_H
+#define EX4_EXCEPTION_H
+
 #include <iostream>
 #include <string>
 #include <exception>
@@ -23,3 +26,5 @@ class DeckFileInvalidSize : public std::runtime_error {
     std::runtime_error("Deck File Error: Deck size is invalid")
     {}
 };
+
+#endif //EX4_EXCEPTION_H
