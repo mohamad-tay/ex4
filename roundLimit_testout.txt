@@ -1289,3 +1289,16 @@ The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
 1          matamDalf       1         5     100   10    Wizard  
 2          rocky           1         5     100   10    Fighter  
+
+-------------------------------------------
+Start of round 100:
+
+Start of matamDalf's turn: 
+Fairies like wizards, you've gained 10 health points.
+Start of rocky's turn: 
+Nothing happened.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          matamDalf       1         5     100   10    Wizard  
+2          rocky           1         5     100   10    Fighter  

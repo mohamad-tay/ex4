@@ -65,7 +65,8 @@ while(numOfPlayers<2 || numOfPlayers>6)
 }
 printInsertPlayerMessage();
 std::string nameAndJob;
-while(std::getline(cin,nameAndJob))
+int i = 0;
+while(i<numOfPlayers && std::getline(cin,nameAndJob))
 {
     //printInsertPlayerMessage();//addeddddd
     std::size_t found1 = nameAndJob.find(' ');
@@ -75,7 +76,7 @@ while(std::getline(cin,nameAndJob))
     if (found>15 || found==0 )
     {
         printInvalidName();
-        printInsertPlayerMessage();
+        //printInsertPlayerMessage();
         continue;
     }
     std::string playerName = nameAndJob.substr(0,found);
@@ -115,8 +116,13 @@ else
                 continue;
             }
         }
+        i++;
+        if (i<numOfPlayers)
+        {
+            printInsertPlayerMessage();
+        }
 }
-printInsertPlayerMessage();//added 14:30
+//added 14:30
 }
 
 
@@ -267,7 +273,7 @@ void Mtmchkin::initializeCards(const std::string fileName)
         throw DeckFileNotFound();
     }
     std::string line;
-    int numOfLine=0; //0 or 1
+    int numOfLine=1; //0 or 1 //changed to 1
     while (std::getline(file, line))
     {
         
@@ -317,7 +323,6 @@ void Mtmchkin::initializeCards(const std::string fileName)
             shared_ptr<Card> ptr(new Fairy());
             m_groubCard.push_back(ptr);
         }
-
         else
         {
             throw DeckFileFormatError(std::to_string(numOfLine)); 
@@ -366,7 +371,7 @@ void Mtmchkin::playRound()
 
 int Mtmchkin::getNumberOfRounds() const
 {
-    return m_numOfRounds;
+    return m_numOfRounds-1;
 }
 
 bool Mtmchkin::isGameOver() const

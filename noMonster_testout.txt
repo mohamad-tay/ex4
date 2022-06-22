@@ -1183,3 +1183,14 @@ The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
 1          Itay            1         5     100   210   Wizard  
 2          Pikachu         1         5     0     190   Rogue  
+
+-------------------------------------------
+Start of round 100:
+
+Start of Itay's turn: 
+Fairies like wizards, you've gained 10 health points.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     100   210   Wizard  
+2          Pikachu         1         5     0     190   Rogue  
