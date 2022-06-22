@@ -138,7 +138,7 @@ void Player::addCoins(int const coins) //bdekat kelet //throw exception?
      return m_name;
   }
 
-  std::ostream& operator<<(std::ostream& os, const Player& r)
+std::ostream& operator<<(std::ostream& os, const Player& r)
 {
  std::string name= r.m_name;
  std::string job = "Player tetstststst";

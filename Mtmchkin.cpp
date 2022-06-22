@@ -25,11 +25,100 @@ using std::cout;
 using std::endl;
 
 
-Mtmchkin::Mtmchkin(const std::string fileName) : m_numOfRounds(0)
+Mtmchkin::Mtmchkin(const std::string fileName) : m_numOfRounds(1)
 {
-    initializeCards(fileName); //try and catch return in main 
-    printStartGameMessage();
+initializeCards(fileName); //try and catch return in main 
+printStartGameMessage();
+printEnterTeamSizeMessage();
+std::string stringNumOfPlayers;
+std::getline(cin,stringNumOfPlayers);
+int numOfPlayers = 0; //bkt stoi hen
+try
+{
+    numOfPlayers = std::stoi(stringNumOfPlayers);
+}
+catch(const std::invalid_argument& e)
+{
+    numOfPlayers = 0;
+}
+catch(const std::out_of_range& e)
+{
+    numOfPlayers = 0;
+}
+while(numOfPlayers<2 || numOfPlayers>6)
+{
+    printInvalidTeamSize();
     printEnterTeamSizeMessage();
+    std::getline(cin,stringNumOfPlayers); //bka kelta 3adeye
+    try
+    {
+        numOfPlayers = std::stoi(stringNumOfPlayers);
+    }
+    catch(const std::invalid_argument& e)
+    {
+        numOfPlayers = 0;
+    }
+    catch(const std::out_of_range& e)
+    {
+        numOfPlayers = 0;
+    }
+}
+printInsertPlayerMessage();
+std::string nameAndJob;
+while(std::getline(cin,nameAndJob))
+{
+    std::size_t found1 = nameAndJob.find(' ');
+  if (found1 != std::string::npos)
+  {
+    int found =(int)found1;
+    if (found>15 || found==0 )
+    {
+        printInvalidName();
+        printInsertPlayerMessage();
+        continue;
+    }
+    std::string playerName = nameAndJob.substr(0,found);
+    int length = (int)(nameAndJob.size())-(int)(playerName.size());
+    std::string playerJob = nameAndJob.substr(found+1,length); //levdok 7okeyot
+    if(playerJob == "Rogue")
+    {
+        std::shared_ptr<Player> ptr(new Rogue(playerName));
+        m_teamPlayer.push_back(ptr);
+    }
+    else if(playerJob == "Fighter")
+    {
+        shared_ptr<Player> ptr(new Fighter(playerName));
+        m_teamPlayer.push_back(ptr);
+    }
+    else if(playerJob == "Wizard")
+    {
+        shared_ptr<Player> ptr(new Wizard(playerName));
+        m_teamPlayer.push_back(ptr); //check shared ptr what happens
+    }
+    else
+    {
+        printInvalidClass();
+        continue;
+    } 
+}
+else
+        {
+            if(((int)(nameAndJob.size())) > 15) //changed here 22.6
+            {
+                printInvalidName();
+                continue;
+            }
+            else //made commented 22.6
+            {
+                printInvalidClass();
+                continue;
+            }
+        }
+}
+}
+
+
+/* ooooooooooooold
     int numOfPlayer;
     std::cin >> numOfPlayer; //getline?????   std::cin >> numOfPlayer;
     while(numOfPlayer<2 || numOfPlayer>6)
@@ -110,7 +199,61 @@ Mtmchkin::Mtmchkin(const std::string fileName) : m_numOfRounds(0)
         printInsertPlayerMessage();
         }
 }
+
+
+
+*/
+/*new kleta ------------------------------------------------------------------
+std::string stringNumOfPlayers;
+std::getline(cin,stringNumOfPlayers);
+int numOfPlayers = std::stoi(stringNumOfPlayers);
+while(numOfPlayers<2 || numOfPlayers>6)
+{
+    printInvalidTeamSize();
+    printEnterTeamSizeMessage();
+    std::getline(cin,stringNumOfPlayers); //bka kelta 3adeye
 }
+printInsertPlayerMessage();
+std::string nameAndJob;
+while(std::getline(cin,nameAndJob))
+{
+    std::size_t found1 = nameAndJob.find(' ');
+    int found =(int)found1;
+    if (found>15 || found==0 )
+    {
+        printInvalidName();
+        printInsertPlayerMessage();
+        continue;
+    }
+    std::string playerName = nameAndJob.substr(0,found);
+    int length = (int)(nameAndJob.size())-(int)(playerName.size());
+    std::string playerJob = nameAndJob.substr(found+1,length); //levdok 7okeyot
+    if(playerJob == "Rogue")
+    {
+        std::shared_ptr<Player> ptr(new Rogue(nameOfPlayer));
+        m_teamPlayer.push_back(ptr);
+    }
+    else if(playerJob == "Fighter")
+    {
+        shared_ptr<Player> ptr(new Fighter(nameOfPlayer));
+        m_teamPlayer.push_back(ptr);
+    }
+    else if(playerJob == "Wizard")
+    {
+        shared_ptr<Player> ptr(new Wizard(nameOfPlayer));
+        m_teamPlayer.push_back(ptr); //check shared ptr what happens
+    }
+    else
+    {
+        printInvalidClass();
+        continue;
+    } 
+}
+
+
+
+new kleta end -----------------------------------------------------------------------------*/
+
 
 
  
