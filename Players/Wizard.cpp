@@ -39,3 +39,8 @@ void Wizard::abstract()
 {
    return;
 }
+
+std::string Wizard::getType() const 
+{
+   return std::string("Wizard");
+}

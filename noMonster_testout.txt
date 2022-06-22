@@ -1,6 +1,7 @@
 Welcome to the world of MtmChkin!!!
 Please enter team size: (2-6)
 Please insert the player name and class: 
+Please insert the player name and class: 
 
 -------------------------------------------
 Start of round 1:
@@ -12,8 +13,8 @@ This is but a flesh wound. You've lost 10 health points
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     100   10    Player tetstststst  
-2          Pikachu         1         5     90    10    Player tetstststst  
+1          Itay            1         5     100   10    Wizard  
+2          Pikachu         1         5     90    10    Rogue  
 
 -------------------------------------------
 Start of round 2:
@@ -25,8 +26,8 @@ You've stumbled into a pile of coins! you've gained 10 gold.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     90    10    Player tetstststst  
-2          Pikachu         1         5     90    30    Player tetstststst  
+1          Itay            1         5     90    10    Wizard  
+2          Pikachu         1         5     90    30    Rogue  
 
 -------------------------------------------
 Start of round 3:
@@ -38,8 +39,8 @@ Nothing happened.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     100   10    Player tetstststst  
-2          Pikachu         1         5     90    30    Player tetstststst  
+1          Itay            1         5     100   10    Wizard  
+2          Pikachu         1         5     90    30    Rogue  
 
 -------------------------------------------
 Start of round 4:
@@ -51,8 +52,8 @@ You saw the trap coming from miles away, you dodged it gracefully.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     90    10    Player tetstststst  
-2          Pikachu         1         5     90    30    Player tetstststst  
+1          Itay            1         5     90    10    Wizard  
+2          Pikachu         1         5     90    30    Rogue  
 
 -------------------------------------------
 Start of round 5:
@@ -64,8 +65,8 @@ Nothing happened.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     90    20    Player tetstststst  
-2          Pikachu         1         5     90    30    Player tetstststst  
+1          Itay            1         5     90    20    Wizard  
+2          Pikachu         1         5     90    30    Rogue  
 
 -------------------------------------------
 Start of round 6:
@@ -77,8 +78,8 @@ This is but a flesh wound. You've lost 10 health points
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     100   20    Player tetstststst  
-2          Pikachu         1         5     80    30    Player tetstststst  
+1          Itay            1         5     100   20    Wizard  
+2          Pikachu         1         5     80    30    Rogue  
 
 -------------------------------------------
 Start of round 7:
@@ -90,8 +91,8 @@ You've stumbled into a pile of coins! you've gained 10 gold.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     90    20    Player tetstststst  
-2          Pikachu         1         5     80    50    Player tetstststst  
+1          Itay            1         5     90    20    Wizard  
+2          Pikachu         1         5     80    50    Rogue  
 
 -------------------------------------------
 Start of round 8:
@@ -103,8 +104,8 @@ Nothing happened.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     100   20    Player tetstststst  
-2          Pikachu         1         5     80    50    Player tetstststst  
+1          Itay            1         5     100   20    Wizard  
+2          Pikachu         1         5     80    50    Rogue  
 
 -------------------------------------------
 Start of round 9:
@@ -116,8 +117,8 @@ You saw the trap coming from miles away, you dodged it gracefully.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     90    20    Player tetstststst  
-2          Pikachu         1         5     80    50    Player tetstststst  
+1          Itay            1         5     90    20    Wizard  
+2          Pikachu         1         5     80    50    Rogue  
 
 -------------------------------------------
 Start of round 10:
@@ -129,8 +130,8 @@ Nothing happened.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     90    30    Player tetstststst  
-2          Pikachu         1         5     80    50    Player tetstststst  
+1          Itay            1         5     90    30    Wizard  
+2          Pikachu         1         5     80    50    Rogue  
 
 -------------------------------------------
 Start of round 11:
@@ -142,8 +143,8 @@ This is but a flesh wound. You've lost 10 health points
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     100   30    Player tetstststst  
-2          Pikachu         1         5     70    50    Player tetstststst  
+1          Itay            1         5     100   30    Wizard  
+2          Pikachu         1         5     70    50    Rogue  
 
 -------------------------------------------
 Start of round 12:
@@ -155,8 +156,8 @@ You've stumbled into a pile of coins! you've gained 10 gold.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     90    30    Player tetstststst  
-2          Pikachu         1         5     70    70    Player tetstststst  
+1          Itay            1         5     90    30    Wizard  
+2          Pikachu         1         5     70    70    Rogue  
 
 -------------------------------------------
 Start of round 13:
@@ -168,8 +169,8 @@ Nothing happened.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     100   30    Player tetstststst  
-2          Pikachu         1         5     70    70    Player tetstststst  
+1          Itay            1         5     100   30    Wizard  
+2          Pikachu         1         5     70    70    Rogue  
 
 -------------------------------------------
 Start of round 14:
@@ -181,8 +182,8 @@ You saw the trap coming from miles away, you dodged it gracefully.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     90    30    Player tetstststst  
-2          Pikachu         1         5     70    70    Player tetstststst  
+1          Itay            1         5     90    30    Wizard  
+2          Pikachu         1         5     70    70    Rogue  
 
 -------------------------------------------
 Start of round 15:
@@ -194,8 +195,8 @@ Nothing happened.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     90    40    Player tetstststst  
-2          Pikachu         1         5     70    70    Player tetstststst  
+1          Itay            1         5     90    40    Wizard  
+2          Pikachu         1         5     70    70    Rogue  
 
 -------------------------------------------
 Start of round 16:
@@ -207,8 +208,8 @@ This is but a flesh wound. You've lost 10 health points
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     100   40    Player tetstststst  
-2          Pikachu         1         5     60    70    Player tetstststst  
+1          Itay            1         5     100   40    Wizard  
+2          Pikachu         1         5     60    70    Rogue  
 
 -------------------------------------------
 Start of round 17:
@@ -220,8 +221,8 @@ You've stumbled into a pile of coins! you've gained 10 gold.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     90    40    Player tetstststst  
-2          Pikachu         1         5     60    90    Player tetstststst  
+1          Itay            1         5     90    40    Wizard  
+2          Pikachu         1         5     60    90    Rogue  
 
 -------------------------------------------
 Start of round 18:
@@ -233,8 +234,8 @@ Nothing happened.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     100   40    Player tetstststst  
-2          Pikachu         1         5     60    90    Player tetstststst  
+1          Itay            1         5     100   40    Wizard  
+2          Pikachu         1         5     60    90    Rogue  
 
 -------------------------------------------
 Start of round 19:
@@ -246,8 +247,8 @@ You saw the trap coming from miles away, you dodged it gracefully.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     90    40    Player tetstststst  
-2          Pikachu         1         5     60    90    Player tetstststst  
+1          Itay            1         5     90    40    Wizard  
+2          Pikachu         1         5     60    90    Rogue  
 
 -------------------------------------------
 Start of round 20:
@@ -259,8 +260,8 @@ Nothing happened.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     90    50    Player tetstststst  
-2          Pikachu         1         5     60    90    Player tetstststst  
+1          Itay            1         5     90    50    Wizard  
+2          Pikachu         1         5     60    90    Rogue  
 
 -------------------------------------------
 Start of round 21:
@@ -272,8 +273,8 @@ This is but a flesh wound. You've lost 10 health points
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     100   50    Player tetstststst  
-2          Pikachu         1         5     50    90    Player tetstststst  
+1          Itay            1         5     100   50    Wizard  
+2          Pikachu         1         5     50    90    Rogue  
 
 -------------------------------------------
 Start of round 22:
@@ -285,8 +286,8 @@ You've stumbled into a pile of coins! you've gained 10 gold.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     90    50    Player tetstststst  
-2          Pikachu         1         5     50    110   Player tetstststst  
+1          Itay            1         5     90    50    Wizard  
+2          Pikachu         1         5     50    110   Rogue  
 
 -------------------------------------------
 Start of round 23:
@@ -298,8 +299,8 @@ Nothing happened.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     100   50    Player tetstststst  
-2          Pikachu         1         5     50    110   Player tetstststst  
+1          Itay            1         5     100   50    Wizard  
+2          Pikachu         1         5     50    110   Rogue  
 
 -------------------------------------------
 Start of round 24:
@@ -311,8 +312,8 @@ You saw the trap coming from miles away, you dodged it gracefully.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     90    50    Player tetstststst  
-2          Pikachu         1         5     50    110   Player tetstststst  
+1          Itay            1         5     90    50    Wizard  
+2          Pikachu         1         5     50    110   Rogue  
 
 -------------------------------------------
 Start of round 25:
@@ -324,8 +325,8 @@ Nothing happened.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     90    60    Player tetstststst  
-2          Pikachu         1         5     50    110   Player tetstststst  
+1          Itay            1         5     90    60    Wizard  
+2          Pikachu         1         5     50    110   Rogue  
 
 -------------------------------------------
 Start of round 26:
@@ -337,8 +338,8 @@ This is but a flesh wound. You've lost 10 health points
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     100   60    Player tetstststst  
-2          Pikachu         1         5     40    110   Player tetstststst  
+1          Itay            1         5     100   60    Wizard  
+2          Pikachu         1         5     40    110   Rogue  
 
 -------------------------------------------
 Start of round 27:
@@ -350,8 +351,8 @@ You've stumbled into a pile of coins! you've gained 10 gold.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     90    60    Player tetstststst  
-2          Pikachu         1         5     40    130   Player tetstststst  
+1          Itay            1         5     90    60    Wizard  
+2          Pikachu         1         5     40    130   Rogue  
 
 -------------------------------------------
 Start of round 28:
@@ -363,8 +364,8 @@ Nothing happened.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     100   60    Player tetstststst  
-2          Pikachu         1         5     40    130   Player tetstststst  
+1          Itay            1         5     100   60    Wizard  
+2          Pikachu         1         5     40    130   Rogue  
 
 -------------------------------------------
 Start of round 29:
@@ -376,8 +377,8 @@ You saw the trap coming from miles away, you dodged it gracefully.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     90    60    Player tetstststst  
-2          Pikachu         1         5     40    130   Player tetstststst  
+1          Itay            1         5     90    60    Wizard  
+2          Pikachu         1         5     40    130   Rogue  
 
 -------------------------------------------
 Start of round 30:
@@ -389,8 +390,8 @@ Nothing happened.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     90    70    Player tetstststst  
-2          Pikachu         1         5     40    130   Player tetstststst  
+1          Itay            1         5     90    70    Wizard  
+2          Pikachu         1         5     40    130   Rogue  
 
 -------------------------------------------
 Start of round 31:
@@ -402,8 +403,8 @@ This is but a flesh wound. You've lost 10 health points
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     100   70    Player tetstststst  
-2          Pikachu         1         5     30    130   Player tetstststst  
+1          Itay            1         5     100   70    Wizard  
+2          Pikachu         1         5     30    130   Rogue  
 
 -------------------------------------------
 Start of round 32:
@@ -415,8 +416,8 @@ You've stumbled into a pile of coins! you've gained 10 gold.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     90    70    Player tetstststst  
-2          Pikachu         1         5     30    150   Player tetstststst  
+1          Itay            1         5     90    70    Wizard  
+2          Pikachu         1         5     30    150   Rogue  
 
 -------------------------------------------
 Start of round 33:
@@ -428,8 +429,8 @@ Nothing happened.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     100   70    Player tetstststst  
-2          Pikachu         1         5     30    150   Player tetstststst  
+1          Itay            1         5     100   70    Wizard  
+2          Pikachu         1         5     30    150   Rogue  
 
 -------------------------------------------
 Start of round 34:
@@ -441,8 +442,8 @@ You saw the trap coming from miles away, you dodged it gracefully.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     90    70    Player tetstststst  
-2          Pikachu         1         5     30    150   Player tetstststst  
+1          Itay            1         5     90    70    Wizard  
+2          Pikachu         1         5     30    150   Rogue  
 
 -------------------------------------------
 Start of round 35:
@@ -454,8 +455,8 @@ Nothing happened.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     90    80    Player tetstststst  
-2          Pikachu         1         5     30    150   Player tetstststst  
+1          Itay            1         5     90    80    Wizard  
+2          Pikachu         1         5     30    150   Rogue  
 
 -------------------------------------------
 Start of round 36:
@@ -467,8 +468,8 @@ This is but a flesh wound. You've lost 10 health points
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     100   80    Player tetstststst  
-2          Pikachu         1         5     20    150   Player tetstststst  
+1          Itay            1         5     100   80    Wizard  
+2          Pikachu         1         5     20    150   Rogue  
 
 -------------------------------------------
 Start of round 37:
@@ -480,8 +481,8 @@ You've stumbled into a pile of coins! you've gained 10 gold.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     90    80    Player tetstststst  
-2          Pikachu         1         5     20    170   Player tetstststst  
+1          Itay            1         5     90    80    Wizard  
+2          Pikachu         1         5     20    170   Rogue  
 
 -------------------------------------------
 Start of round 38:
@@ -493,8 +494,8 @@ Nothing happened.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     100   80    Player tetstststst  
-2          Pikachu         1         5     20    170   Player tetstststst  
+1          Itay            1         5     100   80    Wizard  
+2          Pikachu         1         5     20    170   Rogue  
 
 -------------------------------------------
 Start of round 39:
@@ -506,8 +507,8 @@ You saw the trap coming from miles away, you dodged it gracefully.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     90    80    Player tetstststst  
-2          Pikachu         1         5     20    170   Player tetstststst  
+1          Itay            1         5     90    80    Wizard  
+2          Pikachu         1         5     20    170   Rogue  
 
 -------------------------------------------
 Start of round 40:
@@ -519,8 +520,8 @@ Nothing happened.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     90    90    Player tetstststst  
-2          Pikachu         1         5     20    170   Player tetstststst  
+1          Itay            1         5     90    90    Wizard  
+2          Pikachu         1         5     20    170   Rogue  
 
 -------------------------------------------
 Start of round 41:
@@ -532,8 +533,8 @@ This is but a flesh wound. You've lost 10 health points
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     100   90    Player tetstststst  
-2          Pikachu         1         5     10    170   Player tetstststst  
+1          Itay            1         5     100   90    Wizard  
+2          Pikachu         1         5     10    170   Rogue  
 
 -------------------------------------------
 Start of round 42:
@@ -545,8 +546,8 @@ You've stumbled into a pile of coins! you've gained 10 gold.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     90    90    Player tetstststst  
-2          Pikachu         1         5     10    190   Player tetstststst  
+1          Itay            1         5     90    90    Wizard  
+2          Pikachu         1         5     10    190   Rogue  
 
 -------------------------------------------
 Start of round 43:
@@ -558,8 +559,8 @@ Nothing happened.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     100   90    Player tetstststst  
-2          Pikachu         1         5     10    190   Player tetstststst  
+1          Itay            1         5     100   90    Wizard  
+2          Pikachu         1         5     10    190   Rogue  
 
 -------------------------------------------
 Start of round 44:
@@ -571,8 +572,8 @@ You saw the trap coming from miles away, you dodged it gracefully.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     90    90    Player tetstststst  
-2          Pikachu         1         5     10    190   Player tetstststst  
+1          Itay            1         5     90    90    Wizard  
+2          Pikachu         1         5     10    190   Rogue  
 
 -------------------------------------------
 Start of round 45:
@@ -584,8 +585,8 @@ Nothing happened.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     90    100   Player tetstststst  
-2          Pikachu         1         5     10    190   Player tetstststst  
+1          Itay            1         5     90    100   Wizard  
+2          Pikachu         1         5     10    190   Rogue  
 
 -------------------------------------------
 Start of round 46:
@@ -597,8 +598,8 @@ This is but a flesh wound. You've lost 10 health points
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     100   100   Player tetstststst  
-2          Pikachu         1         5     0     190   Player tetstststst  
+1          Itay            1         5     100   100   Wizard  
+2          Pikachu         1         5     0     190   Rogue  
 
 -------------------------------------------
 Start of round 47:
@@ -608,8 +609,8 @@ You fell into the trap, lose 10 health points.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     90    100   Player tetstststst  
-2          Pikachu         1         5     0     190   Player tetstststst  
+1          Itay            1         5     90    100   Wizard  
+2          Pikachu         1         5     0     190   Rogue  
 
 -------------------------------------------
 Start of round 48:
@@ -619,8 +620,8 @@ You've stumbled into a pile of coins! you've gained 10 gold.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     90    110   Player tetstststst  
-2          Pikachu         1         5     0     190   Player tetstststst  
+1          Itay            1         5     90    110   Wizard  
+2          Pikachu         1         5     0     190   Rogue  
 
 -------------------------------------------
 Start of round 49:
@@ -630,8 +631,8 @@ Fairies like wizards, you've gained 10 health points.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     100   110   Player tetstststst  
-2          Pikachu         1         5     0     190   Player tetstststst  
+1          Itay            1         5     100   110   Wizard  
+2          Pikachu         1         5     0     190   Rogue  
 
 -------------------------------------------
 Start of round 50:
@@ -641,8 +642,8 @@ Fairies like wizards, you've gained 10 health points.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     100   110   Player tetstststst  
-2          Pikachu         1         5     0     190   Player tetstststst  
+1          Itay            1         5     100   110   Wizard  
+2          Pikachu         1         5     0     190   Rogue  
 
 -------------------------------------------
 Start of round 51:
@@ -652,8 +653,8 @@ This is but a flesh wound. You've lost 10 health points
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     90    110   Player tetstststst  
-2          Pikachu         1         5     0     190   Player tetstststst  
+1          Itay            1         5     90    110   Wizard  
+2          Pikachu         1         5     0     190   Rogue  
 
 -------------------------------------------
 Start of round 52:
@@ -663,8 +664,8 @@ You fell into the trap, lose 10 health points.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     80    110   Player tetstststst  
-2          Pikachu         1         5     0     190   Player tetstststst  
+1          Itay            1         5     80    110   Wizard  
+2          Pikachu         1         5     0     190   Rogue  
 
 -------------------------------------------
 Start of round 53:
@@ -674,8 +675,8 @@ You've stumbled into a pile of coins! you've gained 10 gold.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     80    120   Player tetstststst  
-2          Pikachu         1         5     0     190   Player tetstststst  
+1          Itay            1         5     80    120   Wizard  
+2          Pikachu         1         5     0     190   Rogue  
 
 -------------------------------------------
 Start of round 54:
@@ -685,8 +686,8 @@ Fairies like wizards, you've gained 10 health points.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     100   120   Player tetstststst  
-2          Pikachu         1         5     0     190   Player tetstststst  
+1          Itay            1         5     100   120   Wizard  
+2          Pikachu         1         5     0     190   Rogue  
 
 -------------------------------------------
 Start of round 55:
@@ -696,8 +697,8 @@ Fairies like wizards, you've gained 10 health points.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     100   120   Player tetstststst  
-2          Pikachu         1         5     0     190   Player tetstststst  
+1          Itay            1         5     100   120   Wizard  
+2          Pikachu         1         5     0     190   Rogue  
 
 -------------------------------------------
 Start of round 56:
@@ -707,8 +708,8 @@ This is but a flesh wound. You've lost 10 health points
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     90    120   Player tetstststst  
-2          Pikachu         1         5     0     190   Player tetstststst  
+1          Itay            1         5     90    120   Wizard  
+2          Pikachu         1         5     0     190   Rogue  
 
 -------------------------------------------
 Start of round 57:
@@ -718,8 +719,8 @@ You fell into the trap, lose 10 health points.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     80    120   Player tetstststst  
-2          Pikachu         1         5     0     190   Player tetstststst  
+1          Itay            1         5     80    120   Wizard  
+2          Pikachu         1         5     0     190   Rogue  
 
 -------------------------------------------
 Start of round 58:
@@ -729,8 +730,8 @@ You've stumbled into a pile of coins! you've gained 10 gold.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     80    130   Player tetstststst  
-2          Pikachu         1         5     0     190   Player tetstststst  
+1          Itay            1         5     80    130   Wizard  
+2          Pikachu         1         5     0     190   Rogue  
 
 -------------------------------------------
 Start of round 59:
@@ -740,8 +741,8 @@ Fairies like wizards, you've gained 10 health points.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     100   130   Player tetstststst  
-2          Pikachu         1         5     0     190   Player tetstststst  
+1          Itay            1         5     100   130   Wizard  
+2          Pikachu         1         5     0     190   Rogue  
 
 -------------------------------------------
 Start of round 60:
@@ -751,8 +752,8 @@ Fairies like wizards, you've gained 10 health points.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     100   130   Player tetstststst  
-2          Pikachu         1         5     0     190   Player tetstststst  
+1          Itay            1         5     100   130   Wizard  
+2          Pikachu         1         5     0     190   Rogue  
 
 -------------------------------------------
 Start of round 61:
@@ -762,8 +763,8 @@ This is but a flesh wound. You've lost 10 health points
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     90    130   Player tetstststst  
-2          Pikachu         1         5     0     190   Player tetstststst  
+1          Itay            1         5     90    130   Wizard  
+2          Pikachu         1         5     0     190   Rogue  
 
 -------------------------------------------
 Start of round 62:
@@ -773,8 +774,8 @@ You fell into the trap, lose 10 health points.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     80    130   Player tetstststst  
-2          Pikachu         1         5     0     190   Player tetstststst  
+1          Itay            1         5     80    130   Wizard  
+2          Pikachu         1         5     0     190   Rogue  
 
 -------------------------------------------
 Start of round 63:
@@ -784,8 +785,8 @@ You've stumbled into a pile of coins! you've gained 10 gold.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     80    140   Player tetstststst  
-2          Pikachu         1         5     0     190   Player tetstststst  
+1          Itay            1         5     80    140   Wizard  
+2          Pikachu         1         5     0     190   Rogue  
 
 -------------------------------------------
 Start of round 64:
@@ -795,8 +796,8 @@ Fairies like wizards, you've gained 10 health points.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     100   140   Player tetstststst  
-2          Pikachu         1         5     0     190   Player tetstststst  
+1          Itay            1         5     100   140   Wizard  
+2          Pikachu         1         5     0     190   Rogue  
 
 -------------------------------------------
 Start of round 65:
@@ -806,8 +807,8 @@ Fairies like wizards, you've gained 10 health points.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     100   140   Player tetstststst  
-2          Pikachu         1         5     0     190   Player tetstststst  
+1          Itay            1         5     100   140   Wizard  
+2          Pikachu         1         5     0     190   Rogue  
 
 -------------------------------------------
 Start of round 66:
@@ -817,8 +818,8 @@ This is but a flesh wound. You've lost 10 health points
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     90    140   Player tetstststst  
-2          Pikachu         1         5     0     190   Player tetstststst  
+1          Itay            1         5     90    140   Wizard  
+2          Pikachu         1         5     0     190   Rogue  
 
 -------------------------------------------
 Start of round 67:
@@ -828,8 +829,8 @@ You fell into the trap, lose 10 health points.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     80    140   Player tetstststst  
-2          Pikachu         1         5     0     190   Player tetstststst  
+1          Itay            1         5     80    140   Wizard  
+2          Pikachu         1         5     0     190   Rogue  
 
 -------------------------------------------
 Start of round 68:
@@ -839,8 +840,8 @@ You've stumbled into a pile of coins! you've gained 10 gold.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     80    150   Player tetstststst  
-2          Pikachu         1         5     0     190   Player tetstststst  
+1          Itay            1         5     80    150   Wizard  
+2          Pikachu         1         5     0     190   Rogue  
 
 -------------------------------------------
 Start of round 69:
@@ -850,8 +851,8 @@ Fairies like wizards, you've gained 10 health points.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     100   150   Player tetstststst  
-2          Pikachu         1         5     0     190   Player tetstststst  
+1          Itay            1         5     100   150   Wizard  
+2          Pikachu         1         5     0     190   Rogue  
 
 -------------------------------------------
 Start of round 70:
@@ -861,8 +862,8 @@ Fairies like wizards, you've gained 10 health points.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     100   150   Player tetstststst  
-2          Pikachu         1         5     0     190   Player tetstststst  
+1          Itay            1         5     100   150   Wizard  
+2          Pikachu         1         5     0     190   Rogue  
 
 -------------------------------------------
 Start of round 71:
@@ -872,8 +873,8 @@ This is but a flesh wound. You've lost 10 health points
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     90    150   Player tetstststst  
-2          Pikachu         1         5     0     190   Player tetstststst  
+1          Itay            1         5     90    150   Wizard  
+2          Pikachu         1         5     0     190   Rogue  
 
 -------------------------------------------
 Start of round 72:
@@ -883,8 +884,8 @@ You fell into the trap, lose 10 health points.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     80    150   Player tetstststst  
-2          Pikachu         1         5     0     190   Player tetstststst  
+1          Itay            1         5     80    150   Wizard  
+2          Pikachu         1         5     0     190   Rogue  
 
 -------------------------------------------
 Start of round 73:
@@ -894,8 +895,8 @@ You've stumbled into a pile of coins! you've gained 10 gold.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     80    160   Player tetstststst  
-2          Pikachu         1         5     0     190   Player tetstststst  
+1          Itay            1         5     80    160   Wizard  
+2          Pikachu         1         5     0     190   Rogue  
 
 -------------------------------------------
 Start of round 74:
@@ -905,8 +906,8 @@ Fairies like wizards, you've gained 10 health points.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     100   160   Player tetstststst  
-2          Pikachu         1         5     0     190   Player tetstststst  
+1          Itay            1         5     100   160   Wizard  
+2          Pikachu         1         5     0     190   Rogue  
 
 -------------------------------------------
 Start of round 75:
@@ -916,8 +917,8 @@ Fairies like wizards, you've gained 10 health points.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     100   160   Player tetstststst  
-2          Pikachu         1         5     0     190   Player tetstststst  
+1          Itay            1         5     100   160   Wizard  
+2          Pikachu         1         5     0     190   Rogue  
 
 -------------------------------------------
 Start of round 76:
@@ -927,8 +928,8 @@ This is but a flesh wound. You've lost 10 health points
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     90    160   Player tetstststst  
-2          Pikachu         1         5     0     190   Player tetstststst  
+1          Itay            1         5     90    160   Wizard  
+2          Pikachu         1         5     0     190   Rogue  
 
 -------------------------------------------
 Start of round 77:
@@ -938,8 +939,8 @@ You fell into the trap, lose 10 health points.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     80    160   Player tetstststst  
-2          Pikachu         1         5     0     190   Player tetstststst  
+1          Itay            1         5     80    160   Wizard  
+2          Pikachu         1         5     0     190   Rogue  
 
 -------------------------------------------
 Start of round 78:
@@ -949,8 +950,8 @@ You've stumbled into a pile of coins! you've gained 10 gold.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     80    170   Player tetstststst  
-2          Pikachu         1         5     0     190   Player tetstststst  
+1          Itay            1         5     80    170   Wizard  
+2          Pikachu         1         5     0     190   Rogue  
 
 -------------------------------------------
 Start of round 79:
@@ -960,8 +961,8 @@ Fairies like wizards, you've gained 10 health points.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     100   170   Player tetstststst  
-2          Pikachu         1         5     0     190   Player tetstststst  
+1          Itay            1         5     100   170   Wizard  
+2          Pikachu         1         5     0     190   Rogue  
 
 -------------------------------------------
 Start of round 80:
@@ -971,8 +972,8 @@ Fairies like wizards, you've gained 10 health points.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     100   170   Player tetstststst  
-2          Pikachu         1         5     0     190   Player tetstststst  
+1          Itay            1         5     100   170   Wizard  
+2          Pikachu         1         5     0     190   Rogue  
 
 -------------------------------------------
 Start of round 81:
@@ -982,8 +983,8 @@ This is but a flesh wound. You've lost 10 health points
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     90    170   Player tetstststst  
-2          Pikachu         1         5     0     190   Player tetstststst  
+1          Itay            1         5     90    170   Wizard  
+2          Pikachu         1         5     0     190   Rogue  
 
 -------------------------------------------
 Start of round 82:
@@ -993,8 +994,8 @@ You fell into the trap, lose 10 health points.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     80    170   Player tetstststst  
-2          Pikachu         1         5     0     190   Player tetstststst  
+1          Itay            1         5     80    170   Wizard  
+2          Pikachu         1         5     0     190   Rogue  
 
 -------------------------------------------
 Start of round 83:
@@ -1004,8 +1005,8 @@ You've stumbled into a pile of coins! you've gained 10 gold.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     80    180   Player tetstststst  
-2          Pikachu         1         5     0     190   Player tetstststst  
+1          Itay            1         5     80    180   Wizard  
+2          Pikachu         1         5     0     190   Rogue  
 
 -------------------------------------------
 Start of round 84:
@@ -1015,8 +1016,8 @@ Fairies like wizards, you've gained 10 health points.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     100   180   Player tetstststst  
-2          Pikachu         1         5     0     190   Player tetstststst  
+1          Itay            1         5     100   180   Wizard  
+2          Pikachu         1         5     0     190   Rogue  
 
 -------------------------------------------
 Start of round 85:
@@ -1026,8 +1027,8 @@ Fairies like wizards, you've gained 10 health points.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     100   180   Player tetstststst  
-2          Pikachu         1         5     0     190   Player tetstststst  
+1          Itay            1         5     100   180   Wizard  
+2          Pikachu         1         5     0     190   Rogue  
 
 -------------------------------------------
 Start of round 86:
@@ -1037,8 +1038,8 @@ This is but a flesh wound. You've lost 10 health points
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     90    180   Player tetstststst  
-2          Pikachu         1         5     0     190   Player tetstststst  
+1          Itay            1         5     90    180   Wizard  
+2          Pikachu         1         5     0     190   Rogue  
 
 -------------------------------------------
 Start of round 87:
@@ -1048,8 +1049,8 @@ You fell into the trap, lose 10 health points.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     80    180   Player tetstststst  
-2          Pikachu         1         5     0     190   Player tetstststst  
+1          Itay            1         5     80    180   Wizard  
+2          Pikachu         1         5     0     190   Rogue  
 
 -------------------------------------------
 Start of round 88:
@@ -1059,8 +1060,8 @@ You've stumbled into a pile of coins! you've gained 10 gold.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     80    190   Player tetstststst  
-2          Pikachu         1         5     0     190   Player tetstststst  
+1          Itay            1         5     80    190   Wizard  
+2          Pikachu         1         5     0     190   Rogue  
 
 -------------------------------------------
 Start of round 89:
@@ -1070,8 +1071,8 @@ Fairies like wizards, you've gained 10 health points.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     100   190   Player tetstststst  
-2          Pikachu         1         5     0     190   Player tetstststst  
+1          Itay            1         5     100   190   Wizard  
+2          Pikachu         1         5     0     190   Rogue  
 
 -------------------------------------------
 Start of round 90:
@@ -1081,8 +1082,8 @@ Fairies like wizards, you've gained 10 health points.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     100   190   Player tetstststst  
-2          Pikachu         1         5     0     190   Player tetstststst  
+1          Itay            1         5     100   190   Wizard  
+2          Pikachu         1         5     0     190   Rogue  
 
 -------------------------------------------
 Start of round 91:
@@ -1092,8 +1093,8 @@ This is but a flesh wound. You've lost 10 health points
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     90    190   Player tetstststst  
-2          Pikachu         1         5     0     190   Player tetstststst  
+1          Itay            1         5     90    190   Wizard  
+2          Pikachu         1         5     0     190   Rogue  
 
 -------------------------------------------
 Start of round 92:
@@ -1103,8 +1104,8 @@ You fell into the trap, lose 10 health points.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     80    190   Player tetstststst  
-2          Pikachu         1         5     0     190   Player tetstststst  
+1          Itay            1         5     80    190   Wizard  
+2          Pikachu         1         5     0     190   Rogue  
 
 -------------------------------------------
 Start of round 93:
@@ -1114,8 +1115,8 @@ You've stumbled into a pile of coins! you've gained 10 gold.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     80    200   Player tetstststst  
-2          Pikachu         1         5     0     190   Player tetstststst  
+1          Itay            1         5     80    200   Wizard  
+2          Pikachu         1         5     0     190   Rogue  
 
 -------------------------------------------
 Start of round 94:
@@ -1125,8 +1126,8 @@ Fairies like wizards, you've gained 10 health points.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     100   200   Player tetstststst  
-2          Pikachu         1         5     0     190   Player tetstststst  
+1          Itay            1         5     100   200   Wizard  
+2          Pikachu         1         5     0     190   Rogue  
 
 -------------------------------------------
 Start of round 95:
@@ -1136,8 +1137,8 @@ Fairies like wizards, you've gained 10 health points.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     100   200   Player tetstststst  
-2          Pikachu         1         5     0     190   Player tetstststst  
+1          Itay            1         5     100   200   Wizard  
+2          Pikachu         1         5     0     190   Rogue  
 
 -------------------------------------------
 Start of round 96:
@@ -1147,8 +1148,8 @@ This is but a flesh wound. You've lost 10 health points
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     90    200   Player tetstststst  
-2          Pikachu         1         5     0     190   Player tetstststst  
+1          Itay            1         5     90    200   Wizard  
+2          Pikachu         1         5     0     190   Rogue  
 
 -------------------------------------------
 Start of round 97:
@@ -1158,8 +1159,8 @@ You fell into the trap, lose 10 health points.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     80    200   Player tetstststst  
-2          Pikachu         1         5     0     190   Player tetstststst  
+1          Itay            1         5     80    200   Wizard  
+2          Pikachu         1         5     0     190   Rogue  
 
 -------------------------------------------
 Start of round 98:
@@ -1169,8 +1170,8 @@ You've stumbled into a pile of coins! you've gained 10 gold.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     80    210   Player tetstststst  
-2          Pikachu         1         5     0     190   Player tetstststst  
+1          Itay            1         5     80    210   Wizard  
+2          Pikachu         1         5     0     190   Rogue  
 
 -------------------------------------------
 Start of round 99:
@@ -1180,5 +1181,5 @@ Fairies like wizards, you've gained 10 health points.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            1         5     100   210   Player tetstststst  
-2          Pikachu         1         5     0     190   Player tetstststst  
+1          Itay            1         5     100   210   Wizard  
+2          Pikachu         1         5     0     190   Rogue  

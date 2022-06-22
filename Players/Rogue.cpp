@@ -29,3 +29,8 @@ std::ostream& operator<<(std::ostream& os, const Rogue& r)
  {
      return;
  }
+
+ std::string Rogue::getType() const
+ {
+    return std::string("Rogue");
+ }

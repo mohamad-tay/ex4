@@ -5,6 +5,9 @@
 #include "../utilities.h"
 #include <iostream>
 #include "Player.h"
+#include "Fighter.h"
+#include "Rogue.h"
+#include "Wizard.h"
 #include <string>
 
 const int FIVE = 5;
@@ -138,10 +141,10 @@ void Player::addCoins(int const coins) //bdekat kelet //throw exception?
      return m_name;
   }
 
-std::ostream& operator<<(std::ostream& os, const Player& r)
+std::ostream& operator<<(std::ostream& os,const Player& r)
 {
  std::string name= r.m_name;
- std::string job = "Player tetstststst";
+ std::string job= r.getType();
  int level =r.m_level;
  int force = r.m_force;
  int HP =r.m_hp;

@@ -67,6 +67,7 @@ printInsertPlayerMessage();
 std::string nameAndJob;
 while(std::getline(cin,nameAndJob))
 {
+    //printInsertPlayerMessage();//addeddddd
     std::size_t found1 = nameAndJob.find(' ');
   if (found1 != std::string::npos)
   {
@@ -115,6 +116,7 @@ else
             }
         }
 }
+printInsertPlayerMessage();//added 14:30
 }
 
 

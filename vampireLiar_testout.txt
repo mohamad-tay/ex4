@@ -1,6 +1,7 @@
 Welcome to the world of MtmChkin!!!
 Please enter team size: (2-6)
 Please insert the player name and class: 
+Please insert the player name and class: 
 
 -------------------------------------------
 Start of round 1:
@@ -12,8 +13,8 @@ Player Pikachu has been defeated by a Vampire.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            2         5     100   12    Player tetstststst  
-2          Pikachu         1         4     90    10    Player tetstststst  
+1          Itay            2         5     100   12    Fighter  
+2          Pikachu         1         4     90    10    Rogue  
 
 -------------------------------------------
 Start of round 2:
@@ -25,8 +26,8 @@ Player Pikachu has been defeated by a Vampire.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            3         5     100   14    Player tetstststst  
-2          Pikachu         1         3     80    10    Player tetstststst  
+1          Itay            3         5     100   14    Fighter  
+2          Pikachu         1         3     80    10    Rogue  
 
 -------------------------------------------
 Start of round 3:
@@ -38,8 +39,8 @@ Player Pikachu has been defeated by a Vampire.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            4         5     100   16    Player tetstststst  
-2          Pikachu         1         2     70    10    Player tetstststst  
+1          Itay            4         5     100   16    Fighter  
+2          Pikachu         1         2     70    10    Rogue  
 
 -------------------------------------------
 Start of round 4:
@@ -51,8 +52,8 @@ Player Pikachu has been defeated by a Vampire.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            5         5     100   18    Player tetstststst  
-2          Pikachu         1         1     60    10    Player tetstststst  
+1          Itay            5         5     100   18    Fighter  
+2          Pikachu         1         1     60    10    Rogue  
 
 -------------------------------------------
 Start of round 5:
@@ -64,8 +65,8 @@ Player Pikachu has been defeated by a Vampire.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            6         5     100   20    Player tetstststst  
-2          Pikachu         1         0     50    10    Player tetstststst  
+1          Itay            6         5     100   20    Fighter  
+2          Pikachu         1         0     50    10    Rogue  
 
 -------------------------------------------
 Start of round 6:
@@ -77,8 +78,8 @@ Player Pikachu has been defeated by a Vampire.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            7         5     100   22    Player tetstststst  
-2          Pikachu         1         0     40    10    Player tetstststst  
+1          Itay            7         5     100   22    Fighter  
+2          Pikachu         1         0     40    10    Rogue  
 
 -------------------------------------------
 Start of round 7:
@@ -90,8 +91,8 @@ Player Pikachu has been defeated by a Vampire.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            8         5     100   24    Player tetstststst  
-2          Pikachu         1         0     30    10    Player tetstststst  
+1          Itay            8         5     100   24    Fighter  
+2          Pikachu         1         0     30    10    Rogue  
 
 -------------------------------------------
 Start of round 8:
@@ -103,8 +104,8 @@ Player Pikachu has been defeated by a Vampire.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            9         5     100   26    Player tetstststst  
-2          Pikachu         1         0     20    10    Player tetstststst  
+1          Itay            9         5     100   26    Fighter  
+2          Pikachu         1         0     20    10    Rogue  
 
 -------------------------------------------
 Start of round 9:
@@ -116,8 +117,8 @@ Player Pikachu has been defeated by a Vampire.
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            10        5     100   28    Player tetstststst  
-2          Pikachu         1         0     10    10    Player tetstststst  
+1          Itay            10        5     100   28    Fighter  
+2          Pikachu         1         0     10    10    Rogue  
 
 -------------------------------------------
 Start of round 10:
@@ -128,5 +129,5 @@ The Game has ended!!!
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          Itay            10        5     100   28    Player tetstststst  
-2          Pikachu         1         0     0     10    Player tetstststst  
+1          Itay            10        5     100   28    Fighter  
+2          Pikachu         1         0     0     10    Rogue  

@@ -3,6 +3,7 @@ Please enter team size: (2-6)
 Please insert the player name and class: 
 You have entered an invalid class. Please try again.
 You have entered an invalid class. Please try again.
+Please insert the player name and class: 
 
 -------------------------------------------
 Start of round 1:
@@ -14,8 +15,8 @@ Player rocky has defeated Vampire and rose 1 Level!
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          matamDalf       2         5     100   12    Player tetstststst  
-2          rocky           2         5     100   12    Player tetstststst  
+1          matamDalf       2         5     100   12    Wizard  
+2          rocky           2         5     100   12    Fighter  
 
 -------------------------------------------
 Start of round 2:
@@ -27,8 +28,8 @@ Player rocky has defeated Goblin and rose 1 Level!
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          matamDalf       3         5     100   14    Player tetstststst  
-2          rocky           3         5     100   14    Player tetstststst  
+1          matamDalf       3         5     100   14    Wizard  
+2          rocky           3         5     100   14    Fighter  
 
 -------------------------------------------
 Start of round 3:
@@ -40,8 +41,8 @@ Player rocky has defeated Goblin and rose 1 Level!
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          rocky           4         5     100   16    Player tetstststst  
-2          matamDalf       3         5     0     14    Player tetstststst  
+1          rocky           4         5     100   16    Fighter  
+2          matamDalf       3         5     0     14    Wizard  
 
 -------------------------------------------
 Start of round 4:
@@ -51,8 +52,8 @@ Player rocky has defeated Vampire and rose 1 Level!
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          rocky           5         5     100   18    Player tetstststst  
-2          matamDalf       3         5     0     14    Player tetstststst  
+1          rocky           5         5     100   18    Fighter  
+2          matamDalf       3         5     0     14    Wizard  
 
 -------------------------------------------
 Start of round 5:
@@ -62,8 +63,8 @@ Player rocky has defeated Goblin and rose 1 Level!
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          rocky           6         5     100   20    Player tetstststst  
-2          matamDalf       3         5     0     14    Player tetstststst  
+1          rocky           6         5     100   20    Fighter  
+2          matamDalf       3         5     0     14    Wizard  
 
 -------------------------------------------
 Start of round 6:
@@ -73,8 +74,8 @@ Player rocky has defeated Goblin and rose 1 Level!
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          rocky           7         5     100   22    Player tetstststst  
-2          matamDalf       3         5     0     14    Player tetstststst  
+1          rocky           7         5     100   22    Fighter  
+2          matamDalf       3         5     0     14    Wizard  
 
 -------------------------------------------
 Start of round 7:
@@ -85,5 +86,5 @@ The Game has ended!!!
 
 The current ranking of the Team:
 Ranking    Player Name     Level     Force HP    Coins Job
-1          rocky           7         5     0     22    Player tetstststst  
-2          matamDalf       3         5     0     14    Player tetstststst  
+1          rocky           7         5     0     22    Fighter  
+2          matamDalf       3         5     0     14    Wizard  

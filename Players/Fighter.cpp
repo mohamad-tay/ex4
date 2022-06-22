@@ -26,3 +26,8 @@ std::ostream& operator<<(std::ostream& os, const Fighter& r)
  {
   return;
  }
+
+ std::string Fighter::getType() const
+ {
+  return std::string("Fighter");
+ }

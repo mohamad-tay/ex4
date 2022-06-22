@@ -40,7 +40,8 @@ public:                                                                 // addin
     void minusForce();
     virtual void abstract()=0; //made the class abstract
     std::string getName() const;
-    friend std::ostream& operator<<(std::ostream& os, const Player& r);
+    friend std::ostream& operator<<(std::ostream& os,const Player& r);
+    virtual std::string getType() const =0;
 };
 
 

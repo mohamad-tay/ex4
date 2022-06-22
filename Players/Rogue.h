@@ -8,6 +8,7 @@ public:
   void addCoins(int const coins) override;
   friend std::ostream& operator<<(std::ostream& os, const Rogue& r);
   virtual void abstract() override;
+  virtual std::string getType() const override;
 };
 
 

@@ -8,6 +8,7 @@ public:
  void heal(int extraHp) override; 
  friend std::ostream& operator<<(std::ostream& os, const Wizard& r);
  virtual void abstract() override;
+ std::string getType() const override;
 };
 
 
